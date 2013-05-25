@@ -1,7 +1,10 @@
 Gobiernoabierto::Application.routes.draw do
 
   match "/create_question" => "main#create_question"
-  match "/:id" => "main#profile"
+  match "/upvote" => "questions#upvote"
+  match "/downvote" => "questions#downvote"
+
+  match "/:id" => "main#profile", :as => "profiles"
   resources :questions
 
   root :to => "main#index"

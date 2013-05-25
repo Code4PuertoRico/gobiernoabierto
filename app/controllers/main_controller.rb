@@ -1,5 +1,6 @@
 class MainController < ApplicationController
   def index
+    @politicians = Politician.all
   end
 
   def profile
@@ -9,9 +10,7 @@ class MainController < ApplicationController
 
   def create_question
     @question = Question.new(params[:question])
-    puts @question
-    puts "================================"
     @question.save
-    redirect_to root_path
+    redirect_to profiles_url(Politician.find(params[:question][:politician_id]))
   end
 end

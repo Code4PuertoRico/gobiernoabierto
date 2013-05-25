@@ -11,13 +11,16 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130525173303) do
+ActiveRecord::Schema.define(:version => 20130525163701) do
 
   create_table "politicians", :force => true do |t|
+    t.string   "uid"
     t.string   "name"
     t.string   "title"
     t.string   "description"
     t.string   "party"
+    t.string   "phone"
+    t.string   "email"
     t.datetime "created_at",  :null => false
     t.datetime "updated_at",  :null => false
   end
@@ -25,10 +28,10 @@ ActiveRecord::Schema.define(:version => 20130525173303) do
   create_table "questions", :force => true do |t|
     t.string   "title"
     t.text     "body"
-    t.integer  "rating"
-    t.datetime "created_at",    :null => false
-    t.datetime "updated_at",    :null => false
+    t.integer  "rating",        :default => 0
     t.integer  "politician_id"
+    t.datetime "created_at",                   :null => false
+    t.datetime "updated_at",                   :null => false
   end
 
 end
