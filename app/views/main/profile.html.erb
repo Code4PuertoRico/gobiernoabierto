@@ -1,0 +1,19 @@
+<h1>Main#profile</h1>
+<p>Find me in app/views/main/profile.html.erb</p>
+Name: <%= @politician.name %>.
+
+
+<h2>All my questions:</h2>
+
+<% @politician.questions.each do |q| %>
+	<div class="someQuestion">
+		<h3>Title: <%= q.title %></h3>
+		<p>Body: <%= q.body %></p>
+		<div id=<%= q.id + "ratings"%>></div>
+	</div>
+<% end %>
+
+
+<h2>Submit a question</h2>
+
+<%= render 'newquestion' %>

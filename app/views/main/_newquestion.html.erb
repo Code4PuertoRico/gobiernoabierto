@@ -1,0 +1,6 @@
+<%= form_for(@question, :url => {:action => "create_question"}) do |f| %>
+	Title:<%= f.text_field :title %><br />
+	Body:<%= f.text_area :body, :size => "60x12" %><br />
+	<%= f.hidden_field :politician_id, :value => @politician.id %>
+	<%= f.submit %>
+<% end %>
