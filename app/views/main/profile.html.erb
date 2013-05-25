@@ -9,7 +9,11 @@ Name: <%= @politician.name %>.
 	<div class="someQuestion">
 		<h3>Title: <%= q.title %></h3>
 		<p>Body: <%= q.body %></p>
-		<div id=<%= q.id + "ratings"%>></div>
+		<p>Rating: <%= q.rating %></p>
+		<div id=<%= q.id.to_s + "ratings"%>>
+			<%= button_to "UPVOTE", :controller => "questions", :action => "upvote", :id => q.id %>
+			<%= button_to "DOWNVOTE", :controller => "questions", :action => "downvote", :id => q.id %>
+		</div>
 	</div>
 <% end %>
 

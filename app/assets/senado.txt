@@ -1,0 +1,102 @@
+x = Politician.new(:uid => "ebhatia", :name => "EDUARDO BHATIA GAUTIER", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 3031, 3032, 3033", :email => "ebhatia@senadopr.us")
+x.save
+x = Politician.new(:uid => "ajtorres", :name => "ANIBAL J. TORRES TORRES", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2100, 2101", :email => "ajtorres@senadopr.us")
+x.save
+x = Politician.new(:uid => "rolopez", :name => "ROSSANA LOPEZ LEON", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 1020, 1021,1022", :email => "rolopez@senadopr.us")
+x.save
+x = Politician.new(:uid => "afas", :name => "ANTONIO J. FAS ALZAMORA", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2022, 2454, 2734", :email => "afas@senadopr.us")
+x.save
+x = Politician.new(:uid => "arosa", :name => "ANGEL R. ROSA RODRIGUEZ", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2006, 2400, 2401", :email => "arosa@senadopr.us")
+x.save
+x = Politician.new(:uid => "ctirado", :name => "CIRILO TIRADO RIVERA", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2226, 2234", :email => "ctirado@senadopr.us")
+x.save
+x = Politician.new(:uid => "lseilhamer", :name => "LARRY SEILHAMER RODRIGUEZ", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 1623, 1617, 1613", :email => "lseilhamer@senadopr.us")
+x.save
+x = Politician.new(:uid => "mnolasco", :name => "MARGARITA NOLASCO SANTIAGO", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2909, 2925", :email => "mnolasco@senadopr.us")
+x.save
+x = Politician.new(:uid => "ipena", :name => "ITZAMAR PEÑA RAMIREZ", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2383, 2384, 2386", :email => "ipena@senadopr.us")
+x.save
+x = Politician.new(:uid => "trivera", :name => "THOMAS RIVERA SCHATZ", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 3008, 3005, 3082", :email => "trivera@senadopr.us")
+x.save
+x = Politician.new(:uid => "jldalmau", :name => "JOSE L. DALMAU SANTIAGO", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2356, 2357, 2359", :email => "jldalmau@senadopr.us")
+x.save
+x = Politician.new(:uid => "ajtorres", :name => "ANIBAL J. TORRES TORRES", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2100, 2101", :email => "ajtorres@senadopr.us")
+x.save
+x = Politician.new(:uid => "afas", :name => "ANTONIO J. FAS ALZAMORA", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2022, 2454, 2734", :email => "afas@senadopr.us")
+x.save
+x = Politician.new(:uid => "mgonzalez", :name => "MARIA T. GONZALEZ LOPEZ", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2682, 2683, 2684", :email => "mgonzalez@senadopr.us")
+x.save
+x = Politician.new(:uid => "jnadal", :name => "JOSE R. NADAL POWER", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2000, 2396, 2877", :email => "jnadal@senadopr.us")
+x.save
+x = Politician.new(:uid => "rnieves", :name => "RAMON L. NIEVES PEREZ", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2207, 2017", :email => "rnieves@senadopr.us")
+x.save
+x = Politician.new(:uid => "mpereira", :name => "MIGUEL A. PEREIRA CASTILLO", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2504, 2238", :email => "mpereira@senadopr.us")
+x.save
+x = Politician.new(:uid => "ldrivera", :name => "LUIS D. RIVERA FILOMENO", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT. 2928, 2929, 2931", :email => "ldrivera@senadopr.us")
+x.save
+x = Politician.new(:uid => "prodriguez", :name => "PEDRO A. RODRIGUEZ GONZALEZ", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2352, 2355, 2366", :email => "prodriguez@senadopr.us")
+x.save
+x = Politician.new(:uid => "anrodriguez", :name => "ANGEL M. RODRIGUEZ OTERO", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT. 2752, 2757", :email => "anrodriguez@senadopr.us")
+x.save
+x = Politician.new(:uid => "girodriguez", :name => "GILBERTO RODRIGUEZ VALLE", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2390, 2392", :email => "girodriguez@senadopr.us")
+x.save
+x = Politician.new(:uid => "arosa", :name => "ANGEL R. ROSA RODRIGUEZ", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2006, 2400, 2401", :email => "arosa@senadopr.us")
+x.save
+x = Politician.new(:uid => "rruiz", :name => "RAMON RUIZ NIEVES", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2336, 2955,  2958", :email => "rruiz@senadopr.us")
+x.save
+x = Politician.new(:uid => "jsuarez", :name => "JORGE I. SUAREZ CACERES", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2240, 2242,  2244", :email => "jsuarez@senadopr.us")
+x.save
+x = Politician.new(:uid => "ctirado", :name => "CIRILO TIRADO RIVERA", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2226, 2234", :email => "ctirado@senadopr.us")
+x.save
+x = Politician.new(:uid => "mvargas", :name => "MARTIN VARGAS MORALES", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2120, 2121", :email => "mvargas@senadopr.us")
+x.save
+x = Politician.new(:uid => "lseilhamer", :name => "LARRY SEILHAMER RODRIGUEZ", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 1623, 1617, 1613", :email => "lseilhamer@senadopr.us")
+x.save
+x = Politician.new(:uid => "crios", :name => "CARMELO J. RIOS SANTIAGO", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2668, 2673", :email => "crios@senadopr.us")
+x.save
+x = Politician.new(:uid => "anmartinez", :name => "ANGEL MARTINEZ SANTIAGO", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2762, 2757", :email => "anmartinez@senadopr.us")
+x.save
+x = Politician.new(:uid => "mnolasco", :name => "MARGARITA NOLASCO SANTIAGO", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2909, 2925", :email => "mnolasco@senadopr.us")
+x.save
+x = Politician.new(:uid => "mpadilla", :name => "MIGDALIA PADILLA ALVELO", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2221, 2223, 2224", :email => "mpadilla@senadopr.us")
+x.save
+x = Politician.new(:uid => "ipena", :name => "ITZAMAR PEÑA RAMIREZ", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2383, 2384, 2386", :email => "ipena@senadopr.us")
+x.save
+x = Politician.new(:uid => "josperez", :name => "JOSE O. PEREZ ROSA", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2337, 2333", :email => "josperez@senadopr.us")
+x.save
+x = Politician.new(:uid => "trivera", :name => "THOMAS RIVERA SCHATZ", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 3008, 3005, 3082", :email => "trivera@senadopr.us")
+x.save
+x = Politician.new(:uid => "masantiago", :name => "MARIA DE L. SANTIAGO NEGRON", :party => "PIP", :title => "senator", :phone => "787-724-2030 EXT: 2704, 2736", :email => "masantiago@senadopr.us")
+x.save
+x = Politician.new(:uid => "jnadal", :name => "JOSE R. NADAL POWER", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2000, 2396, 2877", :email => "jnadal@senadopr.us")
+x.save
+x = Politician.new(:uid => "rnieves", :name => "RAMON L. NIEVES PEREZ", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2207, 2017", :email => "rnieves@senadopr.us")
+x.save
+x = Politician.new(:uid => "crios", :name => "CARMELO J. RIOS SANTIAGO", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2668, 2673", :email => "crios@senadopr.us")
+x.save
+x = Politician.new(:uid => "mpadilla", :name => "MIGDALIA PADILLA ALVELO", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2221, 2223, 2224", :email => "mpadilla@senadopr.us")
+x.save
+x = Politician.new(:uid => "anmartinez", :name => "ANGEL MARTINEZ SANTIAGO", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2762, 2757", :email => "anmartinez@senadopr.us")
+x.save
+x = Politician.new(:uid => "josperez", :name => "JOSE O. PEREZ ROSA", :party => "PNP", :title => "senator", :phone => "787-724-2030 EXT: 2337, 2333", :email => "josperez@senadopr.us")
+x.save
+x = Politician.new(:uid => "mgonzalez", :name => "MARIA T. GONZALEZ LOPEZ", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2682, 2683, 2684", :email => "mgonzalez@senadopr.us")
+x.save
+x = Politician.new(:uid => "girodriguez", :name => "GILBERTO RODRIGUEZ VALLE", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2390, 2392", :email => "girodriguez@senadopr.us")
+x.save
+x = Politician.new(:uid => "rruiz", :name => "RAMON RUIZ NIEVES", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2336, 2955,  2958", :email => "rruiz@senadopr.us")
+x.save
+x = Politician.new(:uid => "mvargas", :name => "MARTIN VARGAS MORALES", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2120, 2121", :email => "mvargas@senadopr.us")
+x.save
+x = Politician.new(:uid => "mpereira", :name => "MIGUEL A. PEREIRA CASTILLO", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2504, 2238", :email => "mpereira@senadopr.us")
+x.save
+x = Politician.new(:uid => "anrodriguez", :name => "ANGEL M. RODRIGUEZ OTERO", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT. 2752, 2757", :email => "anrodriguez@senadopr.us")
+x.save
+x = Politician.new(:uid => "jldalmau", :name => "JOSE L. DALMAU SANTIAGO", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2356, 2357, 2359", :email => "jldalmau@senadopr.us")
+x.save
+x = Politician.new(:uid => "jsuarez", :name => "JORGE I. SUAREZ CACERES", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2240, 2242,  2244", :email => "jsuarez@senadopr.us")
+x.save
+x = Politician.new(:uid => "ldrivera", :name => "LUIS D. RIVERA FILOMENO", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT. 2928, 2929, 2931", :email => "ldrivera@senadopr.us")
+x.save
+x = Politician.new(:uid => "prodriguez", :name => "PEDRO A. RODRIGUEZ GONZALEZ", :party => "PPD", :title => "senator", :phone => "787-724-2030 EXT: 2352, 2355, 2366", :email => "prodriguez@senadopr.us")
+x.save
