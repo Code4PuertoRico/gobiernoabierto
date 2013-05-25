@@ -28,7 +28,7 @@
 				        <span id="politiciantitle"><%= @politician.title %></span>
 					<% if @politician.party == "PPD" %>
 						<%= image_tag "ppd.png", :alt => "PPD", :class => "span1", :id => "partypicture" %>
-					<% elsif @politician.party == "PIP" %>
+					<% elsif @policitian.party == "PIP" %>
 						<%= image_tag "pip.jpeg", :alt => "PIP", :class => "span1", :id => "partypicture" %>
 					<% elsif @politician.party == "PNP" %>
 						<%= image_tag "pnp.jpg", :alt => "PNP", :class => "span1", :id => "partypicture" %>

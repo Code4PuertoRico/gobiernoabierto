@@ -1,43 +1,29 @@
-<title>Alejandro Garcia Padilla</title>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Alejandro Garcia Padilla</title>
 
-<!-- Stylesheets -->
-<%= stylesheet_link_tag "profile" %>
-<%= stylesheet_link_tag "bootstrap", :media => "screen" %>
-<%= javascript_include_tag "profile" %>
-<!--<link rel="stylesheet" type="text/css" href="profile.css" />-->
-<!--<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" media="screen">-->
-
-<div id="main-container" class="row-fluid">
-	<div id="navbar" class="span12">
-		<span id="title">Gobierno Abierto</span>
-	</div>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="profile.css" />
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" media="screen">
+</head>
+<body>
+	<div id="main-container" class="row-fluid">
+		<div id="navbar" class="span12">
+          <span id="title">Gobierno Abierto</span>
+	    </div>
 
         <div id="pagetop" class="row-fluid span12">
-			<% if @politician.party == "PPD" %>
-			<div id="header" class="row-fluid span8" style="background-color:rgb(255, 150, 150)">
-			<% elsif @politician.party == "PIP" %>
-			<div id="header" class="row-fluid span8" style="background-color:rgb(150, 255, 150)">
-			<% elsif @politician.party == "PNP" %>
-			<div id="header" class="row-fluid span8" style="background-color:rgb(150, 150, 255)">
-			<% end %>
-			    <%= image_tag "Alejandro_Garcia_Padilla.jpg", :id => "profilepicture", :alt => "Alejandro Garcia Padilla", :class => "span3"%>
-			    <!--<img id="profilepicture" src="images/Alejandro_Garcia_Padilla.jpg" alt="Alejandro Garcia Padilla" class="span3">-->
+			<div id="header" class="row-fluid span8">
+			    <img id="profilepicture" src="images/Alejandro_Garcia_Padilla.jpg" alt="Alejandro Garcia Padilla" class="span3">
 			    <div class="row-fluid span9">
 				    <div class="row-fluid span7">
-				        <h2><%= @politician.name %></h2>
-				        <span id="politiciantitle"><%= @politician.title %></span>
-					<% if @politician.party == "PPD" %>
-						<%= image_tag "ppd.png", :alt => "PPD", :class => "span1", :id => "partypicture" %>
-					<% elsif @politician.party == "PIP" %>
-						<%= image_tag "pip.jpeg", :alt => "PIP", :class => "span1", :id => "partypicture" %>
-					<% elsif @politician.party == "PNP" %>
-						<%= image_tag "pnp.jpg", :alt => "PNP", :class => "span1", :id => "partypicture" %>
-					<% else %>
-						NO PARTY
-					<% end %>
-				        <!--<img id="partypicture" class="span1" src="images/ppd.png" alt="PPD">-->
+				        <h2>Alejandro Garcia Padilla</h2>
+				        <span id="politiciantitle">Gobernador</span>    
+				        <img id="partypicture" class="span1" src="images/ppd.png" alt="PPD">  
 				        <p class="span12">
-					Description: <%= @politician.description %>
+				    	    Alejandro Javier García Padilla (born August 3, 1971) is a lawyer and the current Governor of Puerto Rico. García Padilla was a member of the 24th Senate of Puerto Rico and President of the Popular Democratic Party of Puerto Rico (PPD). He also served as Secretary of Consumer Affairs from 2005 to 2009 under the governorship of Aníbal Acevedo Vilá.
 				        </p> 
 				    </div>
 			    </div>
