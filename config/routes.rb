@@ -1,6 +1,6 @@
 Gobiernoabierto::Application.routes.draw do
 
-  match "/create_question" => "main#create_question"
+  post "/create_question" => "main#create_question"
   match "/upvote" => "questions#upvote"
   match "/downvote" => "questions#downvote"
 

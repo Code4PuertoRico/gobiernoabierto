@@ -33,6 +33,10 @@ $(function() {
         console.log("submit click listener call");
         var subject_text = $("#newquestionsubject").val();
         var question_text = $("#newquestionquestion").val();
+	var url = document.URL.split("/");
+	var pid = parseInt(url[url.length-1]);
+
+	$.post("/create_question", {"title":subject_text, "body":question_text, "politician_id":pid});
 
         $("#newquestionsubject").val("");
         $("#newquestionquestion").val("");

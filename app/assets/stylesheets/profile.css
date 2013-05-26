@@ -43,3 +43,8 @@
 	float: left;
 	font-size: 2em;
 }
+
+#ratingscol {
+	float:left;
+	position:left;
+}

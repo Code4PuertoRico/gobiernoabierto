@@ -3,6 +3,7 @@
 <!-- Stylesheets and JavaScript-->
 <%= stylesheet_link_tag "profile" %>
 <%= stylesheet_link_tag "bootstrap", :media => "screen" %>
+<%= javascript_include_tag "profile" %>
 
 <div id="main-container" class="row-fluid">
 	<div id="navbar" class="span12">
@@ -45,18 +46,33 @@
 	        	    <button id="askquestion">Pregunta</button>
 	        	</div>
 		<% @politician.questions.each do |q| %>
-			<div class="question <%= q.id %>">
+			<div class="question">
 				<h4><%= q.title %></h4>
 				<p><%= q.body %></p>
 				<div class="ratingscol">
 					<%= link_to image_tag("uparrow.png", :size=>"32x32"), :controller => "questions", :action => "upvote", :id => q.id %>
 					<%= q.rating %>
-					<%= link_to image_tag("downarrow.png", :size=>"32x32"), :controller => "questions", :action => "downvote", :id => q.id %>
+					<%= button_to "DOWNVOTE", :controller => "questions", :action => "downvote", :id => q.id %>
 				</div>
 			</div>
 		<% end %>
 	        </div>
-		    <div id="expandedquestions" class="span9">
+		    <div id="expandedquestionwrapper" class="span9">
+		    	<div id="expandedquestion">
+			    	<div>
+			    		<h3>Pregunta</h3>
+			    		<h4>Educacion</h4>
+		                <p>Cuales son tus ideas para mejorar la educacion en Puerto Rico?</p>
+			    	</div>
+			    	<div>
+			    		<h3>Contestacion de Alejandro Garcia Padilla</h3>
+		                <p>Deberiamos tener mejor maestros.</p>
+			    	</div>
+			    	<div class="row-fluid">
+			    		<h3>Discusion</h3>
+		                <input class="span11" type="text" placeholder="Empieza una discusion nueva aqui."></input>
+			    	</div>
+		        </div>
 		        <div id="newquestion" class="hidden">
 		        	<div class="row-fluid">
 		        	    <span class="span1">Tema</span>
