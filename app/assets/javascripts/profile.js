@@ -1,5 +1,4 @@
 $(function() {
-    console.log("file starting to run");
     $("#askquestion").click(function() {
     	$(".expandedquestion").each(function() {
             $(this).addClass("hidden")
@@ -28,15 +27,13 @@ $(function() {
         });
     }
 
-    console.log("click listener getting attached");
     $("#submitquestion").click(function() {
-        console.log("submit click listener call");
         var subject_text = $("#newquestionsubject").val();
         var question_text = $("#newquestionquestion").val();
-	var url = document.URL.split("/");
-	var pid = parseInt(url[url.length-1]);
+    	var url = document.URL.split("/");
+    	var pid = parseInt(url[url.length-1]);
 
-	$.post("/create_question", {"title":subject_text, "body":question_text, "politician_id":pid});
+    	$.post("/create_question", {"title":subject_text, "body":question_text, "politician_id":pid});
 
         $("#newquestionsubject").val("");
         $("#newquestionquestion").val("");
@@ -84,7 +81,6 @@ $(function() {
         $(answer_div).append(answer_p);
         $(expanded_question_div).append(question_div);
         $(expanded_question_div).append(answer_div);
-        console.log(expanded_question_div);
         $("#expandedquestions").append(expanded_question_div);
 
     	$("#newquestion").addClass("hidden");
