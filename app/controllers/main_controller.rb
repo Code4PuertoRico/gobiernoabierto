@@ -9,7 +9,7 @@ class MainController < ApplicationController
   end
 
   def create_question
-    @question = Question.new(params[:question])
+    @question = Question.new(:title => params[:title], :body => params[:body], :politician_id => params[:politician_id])
     @question.save
     redirect_to profiles_url(Politician.find(params[:question][:politician_id]))
   end
