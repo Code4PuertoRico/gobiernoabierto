@@ -11,6 +11,6 @@ class MainController < ApplicationController
   def create_question
     @question = Question.new(:title => params[:title], :body => params[:body], :politician_id => params[:politician_id])
     @question.save
-    redirect_to profiles_url(Politician.find(params[:question][:politician_id]))
+    redirect_to profiles_url(Politician.find(params[:politician_id]))
   end
 end
