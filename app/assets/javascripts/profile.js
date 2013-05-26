@@ -1,7 +1,7 @@
 $(function() {
     $("#askquestion").click(function() {
-    	$("#expandedquestion").css("display", "none");
-    	$("#newquestion").css("display", "block");
+    	$("#expandedquestion").addClass("hidden");
+    	$("#newquestion").removeClass("hidden");
     });
 
     var mouseoverHighlight = function(element) {
@@ -16,6 +16,9 @@ $(function() {
         var subject_text = $("#newquestionsubject").val();
         var question_text = $("#newquestionquestion").val();
 
+        $("#newquestionsubject").val("");
+        $("#newquestionquestion").val("");
+
         var wrapper_element = document.createElement("div");
         $(wrapper_element).addClass("question");
         mouseoverHighlight(wrapper_element);
@@ -28,8 +31,8 @@ $(function() {
         $(wrapper_element).append(question_element);
         $("#questions").append(wrapper_element);
 
-    	$("#expandedquestion").css("display", "block");
-    	$("#newquestion").css("display", "none");
+    	$("#expandedquestion").removeClass("hidden");
+    	$("#newquestion").addClass("hidden");
     });
 
     $(".question").each(function() {
